@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【和音】~解放のうた時間~ 2025.8.30 生音ライブ</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+
+    <style>
+        /* フォント設定 */
+        body {
+            font-family: 'Zen Maru Gothic', sans-serif;
+            background-color: #FDFBF8; /* 温かみのある背景色 */
+            color: #4a4a4a;
+        }
+        h1, h2, h3, .font-mincho {
+            font-family: 'Shippori Mincho', serif;
+        }
+        /* ヘッダー背景画像の設定 */
+        .gradient-bg {
+            background-image: 
+                linear-gradient(135deg, rgba(80, 60, 40, 0.5), rgba(40, 30, 20, 0.5)),
+                url('https://cdn.midjourney.com/a38560a8-823b-4db3-b037-90469379e99f/0_2.png');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        /* スクロールをスムーズにする */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* セクションタイトルの下線 */
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background-color: #c5a06c;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+        /* ボタンのホバーエフェクト */
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        /* detailsタグのアイコン用 */
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] .details-icon {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- ヘッダー & ヒーローセクション -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-6 py-20 md:py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-wider leading-tight">【和音】<span class="text-2xl md:text-4xl">~解放のうた時間~</span></h1>
+            <p class="mt-4 text-lg md:text-2xl font-mincho">和、生誕記念 マイク無し・生音ライブ</p>
+            <p class="mt-6 text-xl md:text-3xl font-bold font-mincho">2025.8.30 (Sat)</p>
+
+            <!-- カウントダウンタイマー -->
+            <div id="countdown" class="mt-8 text-2xl md:text-4xl font-bold font-mincho space-x-2 md:space-x-6">
+                <span>開催まで</span>
+                <span id="days" class="inline-block bg-white/20 px-3 py-1 rounded-lg"></span>
+                <span class="text-lg">日</span>
+                <span id="hours" class="inline-block bg-white/20 px-3 py-1 rounded-lg"></span>
+                <span class="text-lg">時間</span>
+                <span id="minutes" class="inline-block bg-white/20 px-3 py-1 rounded-lg"></span>
+                <span class="text-lg">分</span>
+                <span id="seconds" class="inline-block bg-white/20 px-3 py-1 rounded-lg"></span>
+                <span class="text-lg">秒</span>
+            </div>
+
+            <a href="#application" class="cta-button mt-12 inline-block bg-[#c5a06c] hover:bg-[#b5915c] text-white font-bold text-xl py-4 px-12 rounded-full shadow-xl">
+                今すぐ申し込む
+            </a>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="container mx-auto px-6 py-16 md:py-24">
+
+        <!-- コンセプトセクション -->
+        <section id="concept" class="text-center max-w-4xl mx-auto mb-20 md:mb-32">
+            <h2 class="section-title text-3xl md:text-4xl font-mincho font-bold text-[#8c6f46]">“自分を解放する”体験型ライブ</h2>
+            <p class="mt-8 text-lg leading-relaxed">
+                「聴く」「学ぶ」「感じる」<br>
+                和、自身の誕生日をきっかけに、特別な想いを込めて贈る“解放のうた時間”。<br>
+                マイクを通さない、生の音、生の歌声が、あなたの心に直接響きます。
+            </p>
+            <div class="mt-12 grid md:grid-cols-2 gap-8 items-center text-left bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                <!-- ★★★ 画像を更新しました ★★★ -->
+                <img src="https://g2dx.com/wp-content/uploads/2025/07/CleanShot-2025-07-01-at-17.21.25@2x.png" alt="アーティストのイメージ画像" class="rounded-lg w-full h-auto object-cover shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/5a4a3a/FFFFFF?text=%E7%94%BB%E5%83%8F%E3%81%AE%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%AB%E5%A4%B1%E6%95%97';">
+                <div>
+                    <h3 class="text-2xl font-bold font-mincho text-[#8c6f46]">心に刺さる声との共演</h3>
+                    <p class="mt-4 leading-relaxed">スペシャルゲストには、ただ“上手い”を超えた“心に刺さる声”を持つ <strong class="text-[#c5a06c]">村山ぷーさん</strong> をお迎えします。<br>さらにピアノのサポートメンバーも加わり、より豪華なアンプラグド体験をお届けします。</p>
+                </div>
+            </div>
+             <div class="mt-12">
+                <img src="https://lh7-rt.googleusercontent.com/formsz/AN7BsVAOXAKHkzT9p7mQ9ClwoGVoLfxS5WIHbSQN8kZDVrXWj3xR9cyUv2Sn9lJiy-noL0VC-YsK-IMJ0ov2vlaPfhnXFisZXMVAI5jUDQw2Chehne1dTQusmrEQFZnp10W0Nq_Xv6-qGYiZLGPQjtU7CIEp6g=w1414?key=YX3ah_0saBE98Oe6tpZ7Mg" alt="イベントの補足情報画像" class="w-full max-w-3xl mx-auto rounded-lg shadow-lg border border-gray-200" onerror="this.style.display='none'">
+            </div>
+        </section>
+
+        <!-- イベント詳細セクション -->
+        <section id="details" class="bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-200 mb-20 md:mb-32">
+            <h2 class="section-title text-center text-3xl md:text-4xl font-mincho font-bold text-[#8c6f46] mb-12">開催概要</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="flex flex-col items-center">
+                    <i data-lucide="calendar-days" class="w-12 h-12 text-[#c5a06c]"></i>
+                    <h3 class="text-xl font-bold mt-4 mb-2">日時</h3>
+                    <p class="text-lg">2025年8月30日(土)</p>
+                    <p>16:30 開場 / 17:00 開始</p>
+                    <p class="text-sm">(21:00頃 終演予定)</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i data-lucide="map-pin" class="w-12 h-12 text-[#c5a06c]"></i>
+                    <h3 class="text-xl font-bold mt-4 mb-2">会場</h3>
+                    <p class="text-lg">古民家スペース「うずめ」</p>
+                    <p>大阪市浮田町1-5-24</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i data-lucide="ticket" class="w-12 h-12 text-[#c5a06c]"></i>
+                    <h3 class="text-xl font-bold mt-4 mb-2">参加料金</h3>
+                    <p class="text-lg">¥3,000〜</p>
+                    <p>プランの詳細は下記をご覧ください</p>
+                    <a href="#pricing" class="text-[#c5a06c] hover:underline mt-2">料金プラン詳細</a>
+                </div>
+            </div>
+            <div class="mt-12">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.824250239634!2d135.5097279763628!3d34.70958198305341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69197c36957%3A0xe54e22ac3998b368!2z44GG44Ga44KB!5e0!3m2!1sja!2sjp!4v1719565578761!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg shadow-md"></iframe>
+            </div>
+             <!-- 地図を開くボタン -->
+            <div class="text-center mt-4">
+                 <a href="https://maps.app.goo.gl/bXvbuevemxR5ME8D8" target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-white hover:bg-gray-100 text-[#c5a06c] border-2 border-[#c5a06c] font-bold text-lg py-3 px-8 rounded-full">
+                    <i data-lucide="map" class="inline-block w-5 h-5 mr-2 -mt-1"></i>
+                    Googleマップで「うずめ」を開く
+                </a>
+            </div>
+        </section>
+
+        <!-- タイムラインセクション -->
+        <section id="timeline" class="max-w-3xl mx-auto mb-20 md:mb-32">
+            <h2 class="section-title text-center text-3xl md:text-4xl font-mincho font-bold text-[#8c6f46] mb-16">当日の流れ</h2>
+            <div class="relative border-l-2 border-[#c5a06c]/50 ml-4 space-y-12">
+                <div class="relative pl-10">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 bg-[#c5a06c] rounded-full border-4 border-[#FDFBF8]"></div>
+                    <p class="text-lg font-bold text-[#c5a06c]">17:00~</p>
+                    <h3 class="text-2xl font-bold font-mincho mt-1">第一部: ソロLIVE</h3>
+                    <p class="mt-2">和、・村山ぷー、それぞれの世界観に浸るソロライブ。</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 bg-[#c5a06c] rounded-full border-4 border-[#FDFBF8]"></div>
+                    <p class="text-lg font-bold text-[#c5a06c]">18:30~</p>
+                    <h3 class="text-2xl font-bold font-mincho mt-1">第1.5部: 参加型ボイトレ講座</h3>
+                    <p class="mt-2">声のプロから学ぶ、自分の声を見つける特別な時間。</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 bg-[#c5a06c] rounded-full border-4 border-[#FDFBF8]"></div>
+                    <p class="text-lg font-bold text-[#c5a06c]">19:15~</p>
+                    <h3 class="text-2xl font-bold font-mincho mt-1">特別枠: 即興音あそびセッション</h3>
+                    <p class="mt-2">その場で生まれる音楽の奇跡！和、と村山ぷーによる即興セッション。</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 bg-[#c5a06c] rounded-full border-4 border-[#FDFBF8]"></div>
+                    <p class="text-lg font-bold text-[#c5a06c]">19:45~</p>
+                    <h3 class="text-2xl font-bold font-mincho mt-1">第二部: デュエットLIVE</h3>
+                    <p class="mt-2">二人の声が重なり合う、感動のデュエットライブ。</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 bg-[#c5a06c] rounded-full border-4 border-[#FDFBF8]"></div>
+                    <p class="text-lg font-bold text-[#c5a06c]">21:00~</p>
+                    <h3 class="text-2xl font-bold font-mincho mt-1">交流 & 物販タイム</h3>
+                    <p class="mt-2">ライブの余韻を楽しみながら、アーティストや参加者と交流。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 料金プランセクション -->
+        <section id="pricing" class="mb-20 md:mb-32">
+            <h2 class="section-title text-center text-3xl md:text-4xl font-mincho font-bold text-[#8c6f46] mb-12">参加料金</h2>
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto items-start">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-2 border-transparent hover:border-[#c5a06c] transition-all duration-300 flex flex-col h-full">
+                    <h3 class="text-2xl font-bold font-mincho text-center text-[#8c6f46]">第一部 参加プラン</h3>
+                    <p class="text-center text-sm">(第一部ソロLIVE + ボイトレ講座)</p>
+                    <p class="text-5xl font-bold text-center my-6">¥3,000</p>
+                    <ul class="space-y-3 flex-grow">
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>記念ステッカー</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>ミニメッセージカード</li>
+                        <li class="flex items-center"><i data-lucide="info" class="w-5 h-5 text-yellow-500 mr-2"></i>ドリンク2杯別途注文要</li>
+                    </ul>
+                    <a href="#application" class="cta-button mt-8 w-full text-center bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-8 rounded-full">
+                        このプランで申し込む
+                    </a>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-2 border-transparent hover:border-[#c5a06c] transition-all duration-300 flex flex-col h-full">
+                    <h3 class="text-2xl font-bold font-mincho text-center text-[#8c6f46]">第二部 参加プラン</h3>
+                    <p class="text-center text-sm">(第二部デュエットLIVE + ボイトレ講座)</p>
+                    <p class="text-5xl font-bold text-center my-6">¥3,000</p>
+                    <ul class="space-y-3 flex-grow">
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>記念ステッカー</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>ミニメッセージカード</li>
+                        <li class="flex items-center"><i data-lucide="info" class="w-5 h-5 text-yellow-500 mr-2"></i>ドリンク2杯別途注文要</li>
+                    </ul>
+                    <a href="#application" class="cta-button mt-8 w-full text-center bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-8 rounded-full">
+                        このプランで申し込む
+                    </a>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#c5a06c] relative flex flex-col h-full transform lg:scale-105">
+                    <span class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-[#c5a06c] text-white text-sm font-bold px-4 py-1 rounded-full">一番人気！</span>
+                    <h3 class="text-2xl font-bold font-mincho text-center text-[#8c6f46]">フル参加プラン</h3>
+                    <p class="text-center text-sm">(全プログラム + 交流)</p>
+                     <p class="text-center mt-6">
+                        <span class="text-3xl line-through text-gray-500">¥5,500</span>
+                        <span class="text-red-500 font-bold ml-2">500円OFF!</span>
+                    </p>
+                    <p class="text-5xl font-bold text-center text-[#c5a06c]">¥5,000</p>
+                    <p class="text-center text-sm mb-6">※事前支払の場合</p>
+                    <ul class="space-y-3 flex-grow">
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>記念ステッカー</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>ミニメッセージカード</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>ドリンク2杯付き</li>
+                    </ul>
+                    <a href="#application" class="cta-button mt-8 w-full text-center bg-[#c5a06c] hover:bg-[#b5915c] text-white font-bold py-3 px-8 rounded-full">
+                        このプランで申し込む
+                    </a>
+                </div>
+            </div>
+             <p class="text-center mt-8">※小学生はフル参加も一律3,000円 (ドリンク2杯付き)</p>
+        </section>
+
+        <!-- 申し込みセクション -->
+        <section id="application" class="bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-200 scroll-mt-20 text-center">
+            <h2 class="section-title text-center text-3xl md:text-4xl font-mincho font-bold text-[#8c6f46] mb-8">お申し込み</h2>
+             <p class="mt-8 max-w-2xl mx-auto text-lg leading-relaxed">
+                参加をご希望の方は、以下のボタンよりお申し込みフォームへお進みください。<br>フォーム内でご希望の参加プランを選択できます。
+            </p>
+            <!-- ↓↓↓ このURLをあなたのGoogleフォームのURLに設定してください ↓↓↓ -->
+            <a href="YOUR_GOOGLE_FORM_URL_HERE" target="_blank" rel="noopener noreferrer" class="cta-button mt-8 inline-block bg-[#c5a06c] hover:bg-[#b5915c] text-white font-bold text-xl py-4 px-12 rounded-full shadow-xl">
+                <i data-lucide="edit" class="inline-block w-6 h-6 mr-2 -mt-1"></i>
+                お申し込みフォームへ
+            </a>
+             <div class="text-center mt-12 p-4 bg-amber-50 border border-amber-200 rounded-lg max-w-2xl mx-auto">
+                <p class="font-bold text-amber-800">事前PayPayをご利用の方へ</p>
+                <p class="mt-2 text-amber-700">PayPay ID: <strong class="text-lg">@kazukizukal</strong> まで送金のうえ、「お名前」と「送金した旨」をLINEでご連絡ください。</p>
+                <p class="text-sm mt-2 text-amber-600">※振込をご希望の方は別途ご相談ください。</p>
+            </div>
+        </section>
+        
+        <!-- 注意事項セクション -->
+        <section id="faq" class="max-w-4xl mx-auto mt-20 md:mt-32">
+            <h2 class="section-title text-center text-3xl md:text-4xl font-mincho font-bold text-[#8c6f46] mb-12">お願いごと・ご案内</h2>
+            <div class="space-y-4">
+                <details class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 cursor-pointer group">
+                    <summary class="font-bold text-lg flex justify-between items-center list-none">
+                        <span>キャンセルについて</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300 details-icon"></i>
+                    </summary>
+                    <p class="mt-4 leading-relaxed text-gray-700">席に限りがあるため、キャンセルされる場合はなるべく早めにご連絡いただけると助かります。準備やご案内の都合もあるため、<strong class="text-red-600">前日・当日のキャンセルは参加費の全額をお願いしています。</strong>それ以前であれば、キャンセル料はかかりません。</p>
+                </details>
+                <details class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 cursor-pointer group">
+                    <summary class="font-bold text-lg flex justify-between items-center list-none">
+                        <span>座席・入場について</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300 details-icon"></i>
+                    </summary>
+                    <p class="mt-4 leading-relaxed text-gray-700">● <strong>座席：</strong>フル参加の方を前方席に優先ご案内させていただきます。満席時は立ち見や遠めの席となる可能性があります。<br>● <strong>入場対象：</strong>音を“感じる”時間を大切にしたいため、小学生以上とさせていただきます。小学生のお子様は、保護者同伴でのご参加をお願いします。</p>
+                </details>
+                <details class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 cursor-pointer group">
+                    <summary class="font-bold text-lg flex justify-between items-center list-none">
+                        <span>飲食・配信について</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300 details-icon"></i>
+                    </summary>
+                     <p class="mt-4 leading-relaxed text-gray-700">● <strong>飲食：</strong>持ち込み可能ですが匂いのきついもの、カスが出る物はお控えいただくようお願いします。キャッシュオンにてフード、ドリンク追加注文も可能です。<br>● <strong>配信：</strong>生の空気、生の音、生の声を現地で聴いてほしい為、配信はありません。ぜひ現地で感じてください！</p>
+                </details>
+            </div>
+        </section>
+    </main>
+    
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-white mt-20 md:mt-32">
+        <div class="container mx-auto px-6 py-12 text-center">
+             <h3 class="text-2xl font-mincho">和音 ~解放のうた時間~</h3>
+             <p class="mt-4 max-w-2xl mx-auto">和、の誕生月にしかできない“声”と“想い”で繋がる解放のうた時間。<br>一緒に創れること、心から楽しみにしています!!</p>
+             <p class="mt-8 text-sm text-gray-400">&copy; 2025 和音プロジェクト. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Lucide Iconsの初期化
+        lucide.createIcons();
+
+        // カウントダウンタイマーのロジック
+        const countdownElement = document.getElementById('countdown');
+        if (countdownElement) {
+            const eventDate = new Date('2025-08-30T17:00:00').getTime();
+
+            const updateCountdown = () => {
+                const now = new Date().getTime();
+                const distance = eventDate - now;
+
+                if (distance < 0) {
+                    countdownElement.innerHTML = "<p class='text-2xl md:text-3xl font-bold'>イベントは終了しました</p>";
+                    clearInterval(interval);
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById('days').innerText = String(days).padStart(2, '0');
+                document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+                document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+            };
+
+            const interval = setInterval(updateCountdown, 1000);
+            updateCountdown();
+        }
+    </script>
+</body>
+</html>
