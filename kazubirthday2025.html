@@ -65,6 +65,17 @@
         details[open] .details-icon {
             transform: rotate(180deg);
         }
+
+        /* スマホ表示用の調整を追加 */
+        @media (max-width: 768px) {
+            .gradient-bg {
+                background-attachment: scroll; /* スマホでは背景の固定を解除して描画崩れを防止 */
+                min-height: 80vh; /* ヘッダーの高さを確保し、背景画像が適切に表示されるように調整 */
+                display: flex; /* 内容を中央に配置 */
+                align-items: center;
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -107,7 +118,6 @@
                 マイクを通さない、生の音、生の歌声が、あなたの心に直接響きます。
             </p>
             <div class="mt-12 grid md:grid-cols-2 gap-8 items-center text-left bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
-                <!-- ★★★ 画像を更新しました ★★★ -->
                 <img src="https://g2dx.com/wp-content/uploads/2025/07/CleanShot-2025-07-01-at-17.21.25@2x.png" alt="アーティストのイメージ画像" class="rounded-lg w-full h-auto object-cover shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/5a4a3a/FFFFFF?text=%E7%94%BB%E5%83%8F%E3%81%AE%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%AB%E5%A4%B1%E6%95%97';">
                 <div>
                     <h3 class="text-2xl font-bold font-mincho text-[#8c6f46]">心に刺さる声との共演</h3>
